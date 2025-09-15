@@ -1,0 +1,8 @@
+services:
+  w1:
+    build: .
+    container_name: w1
+    ports:
+      - "5901:5901"  
+      - "2222:22"    
+    restart: always
